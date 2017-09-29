@@ -102,7 +102,8 @@ int main()
          std::cout << "Can not get" << std::endl;
     }
     // ферзь
-    if (std::abs(p.first - v.first) == std::abs(p.second - v.second) || p.first == v.first || p.second == v.second)
+    int h = std::abs(p.first - v.first) == std::abs(p.second - v.second);
+    if (h || p.first == v.first || p.second == v.second)
     {
         std::cout << "Threatens" << std::endl;
     }
