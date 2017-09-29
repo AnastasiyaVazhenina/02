@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 int main()
 {  // каждое из чисел X и Y нечетное
     std::cout << "Enter the numbers x and y" << std::endl;
