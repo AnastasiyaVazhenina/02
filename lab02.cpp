@@ -1,7 +1,6 @@
 #include <iostream>
-
 int main()
-{ // каждое из чисел X и Y нечетное
+{  // каждое из чисел X и Y нечетное
     std::cout << "Enter the numbers x and y" << std::endl;
     int x = 0;
     std::cin >> x;
@@ -169,4 +168,4 @@ int main()
     }
     std::cout << "Composition=" << n << std::endl;
     return 0;
-} 
+}
