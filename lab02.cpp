@@ -100,7 +100,6 @@ int main()
     else
     {
          std::cout << "Can not get" << std::endl;
-        
     }
     // ферзь
     if (std::abs(p.first - v.first) == std::abs(p.second - v.second) || p.first == v.first || p.second == v.second)
