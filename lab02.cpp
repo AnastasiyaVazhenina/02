@@ -118,13 +118,13 @@ int main()
         std::cout << "Can get" << std::endl;
     }
     else if (std::abs(p.first - v.first) == 1 && std::abs(p.second - v.second) == 1)
-         {
-             std::cout << "Beats the opponent's piece or pawn" << std::endl;
-         }
-         else
-         {
-             std::cout << "Can not get" << std::endl;
-         }
+    {
+        std::cout << "Beats the opponent's piece or pawn" << std::endl;
+    }
+    else
+    {
+        std::cout << "Can not get" << std::endl;
+    }
     // таблица умножения на 7
     for (int i = 1; i <= 9; ++i)
     {
