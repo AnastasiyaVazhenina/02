@@ -7,7 +7,7 @@ int main()
     std::cin >> x;
     int y = 0;
     std::cin >> y;
-    if (x % 2 != 0 && y % 2 != 0)
+    if ((x % 2 != 0) && (y % 2 != 0))
     {
         std::cout << "True" << std::endl;
     }
@@ -16,7 +16,7 @@ int main()
         std::cout << "False" << std::endl;
     }
     // только одно из чисел X и Y меньше 20
-    if (x < 20 || y < 20)
+    if ((x < 20) || (y < 20))
     {
         std::cout << "One of the numbers is less than 20" << std::endl;
     }
@@ -118,20 +118,20 @@ int main()
     }
     else if (std::abs(p.first - v.first) == 1 && std::abs(p.second - v.second) == 1)
          {
-            std::cout << "Beats the opponent's piece or pawn" << std::endl;
+             std::cout << "Beats the opponent's piece or pawn" << std::endl;
          }
          else
          {
-            std::cout << "Can not get" << std::endl;
+             std::cout << "Can not get" << std::endl;
          }
     // таблица умножения на 7
-    for (unsigned int i = 1; i <= 9; ++i)
+    for (int i = 1; i <= 9; ++i)
     {
         std::cout << i << " x " << 7 << " = " << i * 7 << std::endl;
     }
     // произведение от 8 до 15
     int c = 1;
-    for (unsigned int i = 8; i <= 15; ++i)
+    for (int i = 8; i <= 15; ++i)
     {
         c = c * i;
     }
@@ -141,7 +141,7 @@ int main()
     int a = 0;
     std::cin >> a;
     int u = 1;
-    for (unsigned int i = a; i <= 20; ++i)
+    for (int i = a; i <= 20; ++i)
     {
         u = u * i;
     }
@@ -151,7 +151,7 @@ int main()
     int b = 0;
     std::cin >> b;
     int t = 1;
-    for (unsigned int i = 1; i <= b; ++i)
+    for (int i = 1; i <= b; ++i)
     {
         t = t * i;
     }
@@ -163,7 +163,7 @@ int main()
     int b1 = 0;
     std::cin >> b1;
     int n = 1;
-    for (unsigned int i = a1; i <= b1; ++i)
+    for (int i = a1; i <= b1; ++i)
     {
         n = n * i;
     }
