@@ -16,7 +16,7 @@ int main()
         std::cout << "False" << std::endl;
     }
     // только одно из чисел X и Y меньше 20
-    if ((x < 20) || (y < 20))
+    if (((x >= 20) && (y < 20)) || ((x < 20) && (y >= 20)))
     {
         std::cout << "One of the numbers is less than 20" << std::endl;
     }
